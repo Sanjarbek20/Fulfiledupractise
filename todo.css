@@ -1,0 +1,91 @@
+body{
+    background-color:blueviolet;
+
+}
+h1{
+    padding-top: 5px;
+}
+
+/* mastarting main div */
+#main_div{
+    width: 600px;
+    text-align: center;
+    height: 400px;
+    margin:auto;
+    margin-top: 50px;
+    border-radius:6%; 
+    background-color:antiquewhite;
+    border: 2px;
+}
+.results_todo{
+    display: flex;
+    justify-content: right;
+    background-color:brown;
+    width: 500px;
+    height: 100px;
+    margin: auto;
+    margin-top: 4px;
+    border-radius:2%;
+}
+/* starting input place */
+#input_place{
+    width: 410px;
+    height: 30px;
+    row-gap: 64;
+    columns: 2;
+    animation: inputbir 4s linear infinite;
+
+}
+.add{
+    background-color:blue;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: bold;
+    border:none;
+    border-radius:5%;
+    width: 80px;
+    height: 35px;
+}
+/* syatrting btns */
+
+.btn{
+    border-radius:10%;
+    width: 80px;
+    height: 30px;
+    margin-top: 20px;
+    place-content: center;
+    border:none;
+    text-transform:uppercase;
+}
+#edit{
+    background-color:yellow;
+}
+#complete{
+    background-color:rgb(108, 169, 108);
+}
+#delete{
+    background-color:rgb(226, 217, 227);
+    margin-top: 5px;
+}
+/* starting all delete btn */
+#all_delete{
+    
+    margin-top: 5px;
+    width: 120px;
+    height:35px;
+    background-color:red;
+    color:white;
+    text-decoration: solid;
+    font-size: initial;
+    font-size:bold;
+    border:none;
+    animation: lod 5s linear infinite;
+}
+/*  @keyframes inputbir{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 60%;
+    }
+}  */
